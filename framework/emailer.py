@@ -7,8 +7,8 @@
 Emailing utility.  Emailing is ultimately handled through webpy.
 
 """
-import smtplib
 import os
+import smtplib
 import helpers.custom_filters as custom_filters
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -141,8 +141,6 @@ def send_email_via_smtp(addresses, subject, text, html=None, attachment=None, fr
     password = webapi.config.get('smtp_password')
     debug_level = webapi.config.get('smtp_debuglevel', None)
     starttls = webapi.config.get('smtp_starttls', False)
-
-    import smtplib
     smtpserver = smtplib.SMTP(server, port)
 
     if debug_level:

@@ -31,5 +31,11 @@ tc.gam.project_widgets.wayfinding = function(options) {
         }
     });
 
+    tc.jQ('body').delegate('.checkbox', 'click', function (event) {
+        var self = $(this);
+        event.preventDefault();
+        self.parent().addClass('check');
+    });
+
     return self;
 };

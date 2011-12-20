@@ -3174,48 +3174,66 @@ PAGE-SPECIFIC STYLES
 }
 
 .wayfinding h2.visibility{
-  font-size: 16px;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.wayfinding .visibility.meter{
+    background: #fff;
+    height: 40px;
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.wayfinding .visibility.meter .percent-bar{
+    background: #cadc4b;
+    height: 34px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+    width: 40%;
 }
 
 .wayfinding .completion{
-  font-size: 22px;
-  padding: 20px 0;
+    font-size: 22px;
+    padding: 20px 0;
 }
 
 .wayfinding .completion span{
-  font-weight: 700;
+    font-weight: 700;
 }
 
 .wayfinding .completion .completed-percent{
-  color: #b3c541;
-  padding: 0 6px 0 3px;
+    color: #b3c541;
+    padding: 0 6px 0 3px;
 }
 
 .wayfinding .completion .hundred-percent{
-  color: #dd5a2a;
+    color: #dd5a2a;
 }
 
 .project-section.wayfinding .steps li{
-  display: block;
-  margin: 20px 0 30px;
+    display: block;
+    margin: 20px 0 30px;
 }
 
 .project-section.wayfinding .steps li h3{
-  font-size: 24px;
-  text-transform: none;
-  width: 500px;
+    font-size: 24px;
+    text-transform: none;
+    width: 500px;
 }
 
 .project-section.wayfinding .steps li p{
-  width: 550px;
+    width: 550px;
 }
 
 .project-section.wayfinding .steps li .btn{
-  background: #e4e4e2;
-  border: 1px solid #d9d9d7;
-  display: inline-block;
-  font-size: 16px;
-  margin: 10px 5px 0 0;
+    background: #e4e4e2;
+    border: 1px solid #d9d9d7;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 5px 0 0;
   padding: 6px 10px;
   text-transform: uppercase;
 }
@@ -3232,6 +3250,50 @@ PAGE-SPECIFIC STYLES
     width: 21px;
 }
 
+.west .admin-tools{
+    background: #fff;
+    padding-bottom: 10px;
+}
+
+.west .admin-tools .back a{
+    background: #ededeb;
+    border: 1px solid #d8d8d6;
+    color: #b3b3b3;
+    display: block;
+    font-size: 16px;
+    padding: 5px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 278px;
+}
+
+.west .admin-tools .arrow.back{
+    background: url(../images/control_backArrow_light.png) right center no-repeat transparent;
+    display: inline-block;
+    height: 21px;
+    margin-bottom: -4px;
+    width: 21px;
+}
+
+.west .admin-tools .info{
+    color: #b3b3b3;
+    display: block;
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 90%;
+}
+
+.west .admin-tools .btn{
+    background: #e4e4e2;
+    border: 1px solid #d9d9d7;
+    display: block;
+    font-size: 20px;
+    margin: 10px auto;
+    padding: 6px 10px;
+    text-align: center;
+    width: 86%;
+}
 
 
 .project-header {

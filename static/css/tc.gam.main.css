@@ -3173,6 +3173,67 @@ PAGE-SPECIFIC STYLES
     background-position-y: 0px;
 }
 
+.wayfinding h2.visibility{
+  font-size: 16px;
+}
+
+.wayfinding .completion{
+  font-size: 22px;
+  padding: 20px 0;
+}
+
+.wayfinding .completion span{
+  font-weight: 700;
+}
+
+.wayfinding .completion .completed-percent{
+  color: #b3c541;
+  padding: 0 6px 0 3px;
+}
+
+.wayfinding .completion .hundred-percent{
+  color: #dd5a2a;
+}
+
+.project-section.wayfinding .steps li{
+  display: block;
+  margin: 20px 0 30px;
+}
+
+.project-section.wayfinding .steps li h3{
+  font-size: 24px;
+  text-transform: none;
+  width: 500px;
+}
+
+.project-section.wayfinding .steps li p{
+  width: 550px;
+}
+
+.project-section.wayfinding .steps li .btn{
+  background: #e4e4e2;
+  border: 1px solid #d9d9d7;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 5px 0 0;
+  padding: 6px 10px;
+  text-transform: uppercase;
+}
+
+.project-section.wayfinding .steps li .btn.external{
+  text-transform: none;
+}
+
+.project-section.wayfinding .steps li .arrow{
+    background: url(../images/control_forwardArrow.png) right center no-repeat transparent;
+    display: inline-block;
+    height: 21px;
+    margin-bottom: -4px;
+    width: 21px;
+}
+
+
+
 .project-header {
     background-color: #edeceb;
     border-top: 2px solid #d9d9d7;

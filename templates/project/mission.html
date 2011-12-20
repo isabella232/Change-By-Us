@@ -15,6 +15,10 @@
 
     <div class="bd clearfix">
 
+        {% if d.template_data.project_user.data.is_project_admin %}
+        <a href="#show,wayfinding" class="wayfinding"></a>
+        {% endif %}
+
         <div class="leadership">
             <div class="sub-hd">
                 <div class="inline-edit-controls">

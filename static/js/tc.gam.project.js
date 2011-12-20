@@ -67,7 +67,7 @@ tc.gam.project = function(app, dom) {
             tc.jQ.extend({ name: 'invite', dom: dom.find('.project-section.invite-members') }, widget_options)
         ),
         'wayfinding': tc.gam.project_widgets.wayfinding(
-            tc.jQ.extend({ name: 'wayfinding', dom: dom.find('.project-section.add-link') }, widget_options)
+            tc.jQ.extend({ name: 'wayfinding', dom: dom.find('.project-section.wayfinding') }, widget_options)
         )
     };
 

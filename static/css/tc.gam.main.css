@@ -3213,9 +3213,17 @@ PAGE-SPECIFIC STYLES
     color: #dd5a2a;
 }
 
+.project-section.wayfinding ol.steps{
+    color: #a8a7a5;
+    list-style: decimal;
+    padding-left: 70px;
+}
+
 .project-section.wayfinding .steps li{
-    display: block;
+    font-size: 22px;
     margin: 20px 0 30px;
+    padding-left: 5px;
+    position: relative;
 }
 
 .project-section.wayfinding .steps li h3{
@@ -3225,6 +3233,8 @@ PAGE-SPECIFIC STYLES
 }
 
 .project-section.wayfinding .steps li p{
+    color: #55504B;
+    font-size: 14px;
     width: 550px;
 }
 

@@ -50,7 +50,7 @@ tc.app.prototype.init = function(page) {
     var _me = this;
     var feature_status;
     this.app_page = page;
-    
+
     // Turn off AJAX caching.
     tc.jQ.ajaxSetup({
         cache: false

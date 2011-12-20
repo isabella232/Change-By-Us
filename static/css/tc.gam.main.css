@@ -3153,6 +3153,25 @@ PAGE-SPECIFIC STYLES
     background-color: #55504b
 }
 
+/* Wayfinding Tools */
+
+.continent.project .midlands .west .box > .bd.clearfix{
+    position: relative;
+}
+
+.continent.project .west .wayfinding{
+    background: url(/static/images/admin-sprite.png) no-repeat center -24px;
+    display: block;
+    height: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 21px;
+}
+
+.continent.project .west .wayfinding:hover{
+    background-position-y: 0px;
+}
 
 .project-header {
     background-color: #edeceb;

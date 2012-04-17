@@ -9,6 +9,20 @@
 {# Main content for page. #}
 {% block continent %}
 <div class='continent home'>
+
+    <!-- Grant Banner -->
+    <div class="grant-banner clearfix">
+      <div class="announcement">
+        <span class="announce">Announcing...</span>
+        <h2 class="grant-title">Philadelphia Civic Innovation Grants</h2>
+        <p>Make your project happen with grants of $500 to $3,000.</p>
+      </div>
+
+      <div class="apply">
+        <a href="#" class="rounded-button west">Apply by April 30</a>
+      </div>
+    </div>
+
     <div class='headlands'>
         <span class="hey {{ d.config.site.city_id }}"><span>{{ _('Hey %(city)s!')|format(city=d.config.site.city) }}</span></span>
 

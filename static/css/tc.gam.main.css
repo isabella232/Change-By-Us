@@ -608,6 +608,41 @@ div.continent {
     width: 960px;
 }
 
+div.grant-banner{
+	background-color:#f3f2f0;
+	font-family: "ff-din-web-1","ff-din-web-2","Franklin Gothic Medium",Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	padding: 12px 0;
+	width:960px;
+}
+
+div.grant-banner .announcement{
+  float: left;
+  width: 75%;
+}
+
+div.grant-banner .announce{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+div.grant-banner .grant-title {
+	color: #00B8FF;
+	font-size: 36px;
+	margin-top: 2px;
+  padding: 10px 0 7px;
+}
+
+div.grant-banner .apply{
+	float:right;
+	position: relative;
+}
+
+div.grant-banner .apply .rounded-button{
+  display: block;
+  margin-top: 25px;
+}
+
 div.headlands {
     margin: 0 0 20px;
     position: relative;

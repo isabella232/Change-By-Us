@@ -18,11 +18,11 @@ For upgrade instructions, see the UPGRADE.txt.
 To run the application, use the following command from the code root:
 
     lighttpd -D -f lighttpd.conf
-    
+
 You can also look into using the Upstart script found at scripts/upstart/.
 More information on this can be found at [Running as Service in Install Instructions](https://github.com/codeforamerica/cbu/wiki/Installation-Instructions-%28Ubuntu%29).
 
-   
+
 ## How to Contribute ##
 
 Coming soon...
